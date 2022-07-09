@@ -1,0 +1,90 @@
+h1 {
+  font-weight: bolder;
+  display: block;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  color: #e7eaf6;
+  background-color: #113f67;
+}
+
+h2 {
+  text-align: center;
+  border: 1px solid #a2a8d3;
+  padding: 10px;
+  margin: 10px;
+}
+
+img {
+  display: block;
+  max-width: 80%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+span {
+  text-align: center;
+  display: block;
+  font-size: 17px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+body {
+  background-color: #e7eaf6;
+  color: #113f67;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 25px 50px;
+}
+
+strong {
+  display: block;
+  font-size: 21px;
+  text-align: center;
+  margin: 10px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+button {
+  display: block;
+  margin: auto;
+  padding: 14px 20px;
+  font-size: 16px;
+  background: #113f67;
+  color: white;
+  box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.3);
+  border: none;
+  border-radius: 5px;
+  transition: all 200ms ease-in-out;
+}
+
+button:hover {
+  background: #113f67;
+  cursor: pointer;
+  border: 3px solid #a2a8d3;
+  opacity: 0.9;
+}
+
+.learn-more {
+  display: block;
+  text-decoration: none;
+  color: #bd704c;
+}
+
+.learn-more:hover {
+  text-decoration: underline;
+  color: #336711;
+}
+
+.my-profile {
+  color: #38598b;
+}
+
+.my-profile:hover {
+  color: #336711;
+}
